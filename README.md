@@ -24,7 +24,7 @@ These public DNS resolvers are checked by default (*Modify the script to add you
 
 # Dependencies 
 
-You may need to install following utilities bc and dig for linux operating systems.
+You may need to install following for the script to work.
 
 + R [from CRAN](https://cran.r-project.org)
 + ```dig``` **d**omain **i**nformation **g**roper - [More on wikipedia](https://en.wikipedia.org/wiki/Dig_(command)). Dig is part of [bind](https://www.isc.org/downloads/bind/) package.

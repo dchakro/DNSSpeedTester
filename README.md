@@ -37,29 +37,29 @@ You may need to install following for the script to work.
 # Usage
 
 ``` sh
- $ git clone https://github.com/robocopalpha/DNSSpeedTester/
+ $ git clone https://github.com/robocopAlpha/DNSSpeedTester.git
  $ cd DNSSpeedTester
  $ Rscript ./DNSSpeedTest.R 
  
- DNS test1 test2 test3	test4	test5	test6	test7	test8	test9	test10	test11	test12	test13	avg	sd
-cloudflare	47 ms	45 ms	43 ms	43 ms	42 ms	43 ms	44 ms	43 ms	43 ms	43 ms	43 ms	42 ms	44 ms	43.5 ms	1.3
-opennic	48 ms	44 ms	43 ms	43 ms	43 ms	44 ms	48 ms	44 ms	51 ms	43 ms	43 ms	43 ms	44 ms	44.7 ms	2.5
-neustar	49 ms	45 ms	47 ms	43 ms	48 ms	48 ms	44 ms	45 ms	48 ms	47 ms	42 ms	48 ms	48 ms	46.3 ms	2.2
-yandex	48 ms	46 ms	43 ms	44 ms	42 ms	48 ms	43 ms	52 ms	44 ms	43 ms	44 ms	90 ms	43 ms	48.5 ms	12.3
-norton	51 ms	115 ms	43 ms	45 ms	43 ms	43 ms	42 ms	43 ms	43 ms	43 ms	44 ms	43 ms	43 ms	49.3 ms	19.1
-safeDNS	51 ms	52 ms	51 ms	78 ms	49 ms	50 ms	60 ms	50 ms	47 ms	46 ms	46 ms	48 ms	46 ms	51.8 ms	8.4
-cleanbrowsing	55 ms	49 ms	54 ms	53 ms	53 ms	50 ms	50 ms	69 ms	54 ms	59 ms	54 ms	49 ms	60 ms	54.5 ms	5.3
-DNSadvantage	51 ms	47 ms	53 ms	49 ms	50 ms	56 ms	52 ms	50 ms	83 ms	86 ms	46 ms	43 ms	43 ms	54.5 ms	13.3
-verisign	69 ms	67 ms	46 ms	48 ms	47 ms	87 ms	58 ms	49 ms	50 ms	43 ms	48 ms	49 ms	47 ms	54.5 ms	12.1
-DNSWatch	52 ms	47 ms	44 ms	54 ms	43 ms	44 ms	44 ms	83 ms	63 ms	98 ms	48 ms	48 ms	50 ms	55.2 ms	16.2
-opendns	46 ms	44 ms	48 ms	44 ms	135 ms	44 ms	77 ms	42 ms	44 ms	68 ms	48 ms	44 ms	42 ms	55.8 ms	25.1
-google	52 ms	45 ms	48 ms	55 ms	59 ms	47 ms	62 ms	47 ms	49 ms	135 ms	67 ms	42 ms	44 ms	57.8 ms	23.4
-adguard	50 ms	45 ms	43 ms	47 ms	76 ms	52 ms	48 ms	157 ms	43 ms	45 ms	54 ms	44 ms	49 ms	57.9 ms	29.8
-level3	54 ms	56 ms	58 ms	57 ms	57 ms	58 ms	58 ms	127 ms	58 ms	59 ms	58 ms	59 ms	55 ms	62.6 ms	18.6
-quad9	46 ms	86 ms	44 ms	46 ms	46 ms	42 ms	44 ms	42 ms	43 ms	43 ms	279 ms	44 ms	42 ms	65.2 ms	62.8
-comodo	46 ms	47 ms	43 ms	45 ms	178 ms	45 ms	51 ms	121 ms	44 ms	110 ms	44 ms	43 ms	49 ms	66.6 ms	40.8
-freenom	359 ms	65 ms	56 ms	142 ms	99 ms	48 ms	52 ms	107 ms	108 ms	170 ms	90 ms	334 ms	71 ms	130.8 ms	98.2
-DYN	124 ms	130 ms	134 ms	129 ms	132 ms	127 ms	127 ms	302 ms	134 ms	449 ms	141 ms	130 ms	131 ms	168.5 ms	93
+DNS	test1	test2	test3	test4	test5	test6	test7	test8	test9	test10	test11	test12	test13	avg	sd
+cloudflare	34 ms	34 ms	34 ms	34 ms	35 ms	35 ms	34 ms	35 ms	34 ms	34 ms	34 ms	62 ms	34 ms	34 ms	7.4
+comodo	35 ms	34 ms	34 ms	37 ms	34 ms	35 ms	34 ms	66 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	8.5
+DNSadvantage	34 ms	35 ms	35 ms	34 ms	34 ms	34 ms	34 ms	49 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	4
+DNSWatch	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	60 ms	34 ms	124 ms	34 ms	39 ms	34 ms	34 ms	24.4
+google	34 ms	34 ms	52 ms	34 ms	54 ms	34 ms	34 ms	34 ms	34 ms	71 ms	56 ms	34 ms	34 ms	34 ms	12.1
+neustar	34 ms	37 ms	36 ms	37 ms	35 ms	34 ms	34 ms	35 ms	35 ms	34 ms	34 ms	34 ms	34 ms	34 ms	1.1
+norton	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	36 ms	35 ms	34 ms	34 ms	34 ms	0.6
+opendns	35 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	100 ms	34 ms	67 ms	34 ms	36 ms	34 ms	34 ms	19
+opennic	34 ms	34 ms	34 ms	34 ms	9 ms	35 ms	34 ms	37 ms	34 ms	34 ms	34 ms	34 ms	34 ms	34 ms	6.8
+safeDNS	35 ms	35 ms	34 ms	35 ms	35 ms	34 ms	34 ms	100 ms	47 ms	213 ms	35 ms	34 ms	35 ms	35 ms	49.3
+verisign	40 ms	35 ms	34 ms	34 ms	34 ms	34 ms	50 ms	35 ms	41 ms	34 ms	118 ms	50 ms	34 ms	35 ms	22.2
+yandex	35 ms	49 ms	34 ms	34 ms	46 ms	34 ms	34 ms	65 ms	54 ms	51 ms	34 ms	50 ms	34 ms	35 ms	10.2
+adguard	35 ms	139 ms	37 ms	43 ms	35 ms	34 ms	34 ms	84 ms	34 ms	81 ms	36 ms	46 ms	35 ms	36 ms	30.5
+cleanbrowsing	37 ms	39 ms	37 ms	38 ms	38 ms	38 ms	37 ms	37 ms	39 ms	37 ms	38 ms	48 ms	37 ms	38 ms	2.8
+level3	41 ms	40 ms	39 ms	39 ms	39 ms	39 ms	41 ms	89 ms	39 ms	134 ms	40 ms	41 ms	40 ms	40 ms	27.5
+quad9	206 ms	41 ms	188 ms	35 ms	34 ms	40 ms	36 ms	397 ms	43 ms	609 ms	34 ms	40 ms	34 ms	40 ms	174.3
+DYN	171 ms	115 ms	114 ms	115 ms	203 ms	115 ms	113 ms	113 ms	113 ms	113 ms	113 ms	114 ms	113 ms	114 ms	27.3
+freenom	236 ms	284 ms	35 ms	131 ms	287 ms	34 ms	151 ms	100 ms	121 ms	126 ms	34 ms	108 ms	34 ms	121 ms	86.9
 
 
 Results saved at ~/Desktop/DNS.test.result.tsv

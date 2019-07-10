@@ -63,7 +63,7 @@ for(i in seq(1,length(DNS.List))){
 
 time.OG <- time
 time <- as.data.frame(time)
-time$avg <- apply(X = time,MARGIN = 1,FUN = mean);time$avg <- round(time$avg,digits = 1)
+time$avg <- apply(X = time,MARGIN = 1,FUN = median);time$avg <- round(time$avg,digits = 1)
 time$sd <- apply(X = time,MARGIN = 1,FUN = sd);time$sd <- round(time$sd,digits = 1)
 time <- time[order(time$avg,decreasing = F),]
 time[-ncol(time)] <- lapply(time[-ncol(time)], function(x) paste(x,"ms", sep=" "))

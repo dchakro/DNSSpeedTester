@@ -3,31 +3,31 @@
 This is an R script to test the speed (in milliseconds) of some of the public DNS resolvers from your Internet connection. Helps you choose a suitable DNS resolver should you wish to change from your ISPs DNS resolver.
 
 These public DNS resolvers are checked by default (*Modify the script to add your preferred DNS resolvers*):
- * adguard *176.103.130.132*
- * cleanbrowsing *185.228.168.168*
- * cloudflare *1.1.1.1*
- * comodo *8.26.56.26*
- * DNSadvantage *156.154.70.1*
- * DNSWatch *84.200.69.80*
- * DYN *216.146.35.35*
- * freenom =*80.80.80.80*
- * google *8.8.8.8*
- * level3 *4.2.2.1*
- * neustar *156.154.70.3*
- * norton *199.85.126.10*
- * opendns *208.67.222.123*
- * opennic *176.126.70.119*
- * quad9 *9.9.9.9*
- * safeDNS *195.46.39.39*
- * verisign *64.6.64.6*
- * yandex *77.88.8.7*
+ * adguard - *176.103.130.132*
+ * cleanbrowsing - *185.228.168.168*
+ * cloudflare - *1.1.1.1*
+ * comodo - *8.26.56.26*
+ * DNSadvantage - *156.154.70.1*
+ * DNSWatch - *84.200.69.80*
+ * DYN - *216.146.35.35*
+ * freenom - *80.80.80.80*
+ * google - *8.8.8.8*
+ * level3 - *4.2.2.1*
+ * neustar - *156.154.70.3*
+ * norton - *199.85.126.10*
+ * opendns - *208.67.222.123*
+ * opennic - *176.126.70.119*
+ * quad9 - *9.9.9.9*
+ * safeDNS - *195.46.39.39*
+ * verisign - *64.6.64.6*
+ * yandex - *77.88.8.7*
 
 # Dependencies 
 
 You may need to install following for the script to work.
 
 + R [from CRAN](https://cran.r-project.org)
-+ ```dig``` **d**omain **i**nformation **g**roper - [More on wikipedia](https://en.wikipedia.org/wiki/Dig_(command)). Dig is part of [bind](https://www.isc.org/downloads/bind/) package.
++ ```dig``` **D**omain **I**nformation **G**roper - [More on wikipedia](https://en.wikipedia.org/wiki/Dig_(command)). Dig is part of [bind](https://www.isc.org/downloads/bind/) package.
   + ```dig``` is pre-installed on MacOS but for linux system it can be installed using:
 
 ```sh

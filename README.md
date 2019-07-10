@@ -41,7 +41,7 @@ You may need to install following for the script to work.
  $ cd DNSSpeedTester
  $ Rscript ./DNSSpeedTest.R 
  
- DNS		test1		test2		test3		test4		test5		test6		test7		test8		test9		test10	test11	test12	test13	avg	sd
+ DNS test1 test2 test3	test4	test5	test6	test7	test8	test9	test10	test11	test12	test13	avg	sd
 cloudflare	47 ms	45 ms	43 ms	43 ms	42 ms	43 ms	44 ms	43 ms	43 ms	43 ms	43 ms	42 ms	44 ms	43.5 ms	1.3
 opennic	48 ms	44 ms	43 ms	43 ms	43 ms	44 ms	48 ms	44 ms	51 ms	43 ms	43 ms	43 ms	44 ms	44.7 ms	2.5
 neustar	49 ms	45 ms	47 ms	43 ms	48 ms	48 ms	44 ms	45 ms	48 ms	47 ms	42 ms	48 ms	48 ms	46.3 ms	2.2

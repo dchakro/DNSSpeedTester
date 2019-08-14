@@ -7,12 +7,10 @@ DNSWatch	84.200.69.80
 DYN	216.146.35.35
 freenom	80.80.80.80
 google	8.8.8.8
-Greenteam	81.218.119.11
 Hurricane	74.82.42.42
 level3	4.2.2.1
 neustar	156.154.70.3
-norton	199.85.126.10
-opendns	208.67.222.123
+opendns	208.67.222.222
 opennic	176.126.70.119
 quad9	9.9.9.9
 safeDNS	195.46.39.39

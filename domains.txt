@@ -1,0 +1,13 @@
+google	www.google.fi
+amazon	amazon.com
+FB	facebook.com
+reddi	www.reddit.com
+wiki	en.wikipedia.org
+twit	twitter.com
+gmail	gmail.com
+VR	vr.fi
+Stack	stackoverflow.com
+Verkko	verkkokauppa.fi
+duck	duckduckgo.com
+imdb	imdb.com
+aapl	apple.com

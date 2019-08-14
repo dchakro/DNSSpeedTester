@@ -24,23 +24,16 @@ names(DNS.List) <- temp$V1
 rm(temp)
 
 
-TestDomains=c("www.google.fi", 
-              "amazon.com", 
-              "facebook.com", 
-              "www.reddit.com", 
-              "wikipedia.org", 
-              "twitter.com", 
-              "gmail.com", 
-              "vr.fi", 
-              "stackoverflow.com", 
-              "verkkokauppa.fi",
-              "duckduckgo.com",
-              "imdb.com",
-              "apple.com")
+temp <- read.table(file = "domains.txt",sep="\t",header = F,stringsAsFactors = F)
+
+TestDomains <- as.vector(temp$V2)
+names(TestDomains) <- temp$V1
+rm(temp)
 
 DNSNames <- names(DNS.List)
+domNames <- names(TestDomains)
 
-time <- matrix(nrow = length(DNS.List),ncol = length(TestDomains),data = NA,dimnames = list(DNSNames,paste("test",seq(1,length(TestDomains)),sep="")))
+time <- matrix(nrow = length(DNS.List),ncol = length(TestDomains),data = NA,dimnames = list(DNSNames,domNames))
 
 
 for(i in seq(1,length(DNS.List))){

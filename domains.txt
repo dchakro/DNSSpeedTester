@@ -11,3 +11,5 @@ Verkko	verkkokauppa.fi
 duck	duckduckgo.com
 imdb	imdb.com
 aapl	apple.com
+air	airbnb.com
+pocket	getpocket.com

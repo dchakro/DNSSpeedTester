@@ -37,7 +37,7 @@ You may need to install following for the script to work.
 # Usage
 
 ``` sh
- $ git clone https://github.com/robocopAlpha/DNSSpeedTester.git
+ $ git clone https://github.com/dchakro/DNSSpeedTester.git
  $ cd DNSSpeedTester
  $ Rscript ./DNSSpeedTest.R 
  

@@ -10,7 +10,7 @@ google	8.8.8.8
 Hurricane	74.82.42.42
 level3	4.2.2.1
 neustar	156.154.70.5
-NixNet	198.251.90.114
+NixNet	104.244.78.231
 opendns	208.67.222.222
 opennic_SE	176.126.70.119
 opennic_FI	95.217.16.205
@@ -20,4 +20,5 @@ snopyta	95.216.24.230
 uncensoredDNS	91.239.100.100
 verisign	64.6.64.6
 yandex	77.88.8.7
-own	192.168.100.27
+own1	192.168.100.27
+own2	192.168.100.35

@@ -69,7 +69,7 @@ for(i in seq(1,length(DNS.List))){
 }
 
 time.OG <- TIME
-TIME[,"avg"] <- apply(X = TIME[,-c(ncol(TIME),ncol(TIME)-1)],MARGIN = 1,FUN = mean,na.rm=T)
+TIME[,"avg"] <- apply(X = TIME[,-c(ncol(TIME),ncol(TIME)-1)],MARGIN = 1,FUN = median,na.rm=T)
 TIME[,"avg"] <- round(TIME[,"avg"],digits = 1)
 TIME[,"sd"] <- apply(X = TIME[,-c(ncol(TIME),ncol(TIME)-1)],MARGIN = 1,FUN = sd,na.rm=T)
 TIME[,"sd"] <- round(TIME[,"sd"],digits = 1)
